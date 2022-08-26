@@ -32,7 +32,7 @@ body{
 .container-skills {
    @apply max-w-[400px];
 	margin: 20px auto 0 auto;
-  max-width: 400px;
+    max-width: 400px;
 }
 
 .bar {
@@ -53,9 +53,7 @@ body{
 
 }
 
-/* Animations Below - Replace ease-out with infinite for infinite loop*/
-
-/*Edit here for html*/  
+  
 .bar-fill-html {
 	@apply bg-fuchsia-300;
     width: 90%;
@@ -90,7 +88,7 @@ body{
         width: 90%;
     }
 }
-/*Edit here for Networking*/
+
 .bar-fill-networking {
 	@apply bg-fuchsia-300;
     width: 60%;
@@ -125,7 +123,7 @@ body{
         width: 60%;
     }
 }
-/*Edit here for Design*/
+
 .bar-fill-design{
 	@apply bg-fuchsia-300;
     width: 70%;
@@ -151,7 +149,7 @@ body{
         width: 70%;
     }
 }
-/*web */
+
 .bar-fill-wb{
 	@apply bg-fuchsia-300;
     width: 90%;
@@ -187,7 +185,7 @@ body{
     }
 }
 
-/*Edit here for Photoshop*/
+
 .bar-fill-photoshop{
 	@apply bg-fuchsia-300;
     width: 20%;

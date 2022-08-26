@@ -18,4 +18,8 @@ hamburger.addEventListener('click', function(){
     navMenu.classList.toggle('hidden');
 });
 
+const instgram = document.querySelector('#instagram');
 
+instagram.addEventListener('mouseover' ,function(){
+instagram.classList.add('fill-funchsia-700');
+})
